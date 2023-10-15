@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { verifyUser } from "../actions";
 import { useAuth } from "./AuthContext";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const Login = () => {
   const [email, setEmail] = useState("");
