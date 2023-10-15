@@ -7,10 +7,14 @@ export const useAuth = () => useContext(AuthContext);
 
 // create provider
 export const AuthProvider = ({ children }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(
+    localStorage.getItem("isAuthenticated") || false
+  );
 
   const toggleAuth = () => {
     setIsAuthenticated(!isAuthenticated);
+    // local Storage
+    localStorage.setItem("isAuthenticated", JSON.stringify(!isAuthenticated));
   };
 
   return (
