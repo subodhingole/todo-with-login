@@ -86,6 +86,7 @@ const Login = () => {
           <div style={styles.labelip}>
             <label style={styles.label}>Username:</label>
             <input
+              className="username"
               style={styles.input}
               type="text"
               value={email}
@@ -96,6 +97,7 @@ const Login = () => {
           <div style={styles.labelip}>
             <label style={styles.label}>Password:</label>
             <input
+              className="password"
               style={styles.input}
               type="password"
               value={password}
@@ -103,7 +105,7 @@ const Login = () => {
               placeholder="Enter your password"
             />
           </div>
-          <button style={styles.button} type="submit">
+          <button className="login-button" style={styles.button} type="submit">
             Login
           </button>
         </form>
