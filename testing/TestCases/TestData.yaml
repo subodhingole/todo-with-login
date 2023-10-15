@@ -1,0 +1,40 @@
+Test Scenario 1: Adding a Task to the To-Do List
+Test Case ID: TC001
+Test Description: Verify the ability to add a task to the To-Do list.
+Pre-conditions: User is logged in to the To-Do application.
+Test Data:
+-> Task Description: "Buy groceries for the weekend."
+Test Steps:
+-> Navigate to the To-Do application's main page.
+-> Locate and click on the "Add Item" button.
+-> Enter the task description.
+-> Click the "Add" button to add the task.
+Expected Results:
+-> The task "Buy groceries for the weekend" should be added to the To-Do list.
+
+Test Scenario 2: Marking a Task as Completed
+Test Case ID: TC002
+Test Description: Verify that when a user clicks on the "Done" button, the task is moved to the "Completed" column.
+Pre-conditions: User is logged in to the To-Do application, and there is at least one task in the "To-Do" column.
+Test Data:
+-> Task to be marked as completed: "Finish project report."
+Test Steps:
+-> Navigate to the To-Do application's main page.
+-> Locate the task "Finish project report" in the "To-Do" column.
+-> Click the "Done" button.
+Expected Results:
+-> The "Finish project report" task should disappear from the "To-Do" column.
+-> The task should be visible in the "Completed" column.
+
+Test Scenario 3: Deleting a Task from the To-Do List
+Test Case ID: TC003
+Test Description: Verify that when a user clicks on the "Delete" button, the task is deleted from both the "To-Do" and "Completed" columns.
+Pre-conditions: User is logged in to the To-Do application, and there is at least one task in either the "To-Do" or "Completed" column.
+Test Data:
+-> Task to be deleted: "Call the client."
+Test Steps:
+-> Navigate to the To-Do application's main page.
+-> Locate the task "Call the client" in either the "To-Do" or "Completed" column.
+-> Click the "Delete" button.
+Expected Results:
+The "Call the client" task should disappear from both the "To-Do" and "Completed" columns.

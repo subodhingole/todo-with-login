@@ -1,0 +1,12 @@
+Test Case ID: TC001
+Description: Verify login functionality.
+Pre-conditions: User must have valid login credentials.
+
+Test Steps:
+1. Navigate to the login page.
+2. Enter valid username and password.
+3. Click the "Login" button.
+
+Expected Results: 
+-> The user should be logged in successfully.
+Status: Pass

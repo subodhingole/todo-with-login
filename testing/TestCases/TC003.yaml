@@ -1,0 +1,18 @@
+Test Case ID: TC003
+Description: Verify that when a user clicks on the "Done" button, the task is moved to the "Completed" column.
+Pre-conditions: User is logged in to the To-Do application, and there is at least one task in the "Todos" column.
+
+Test Steps:
+1. Navigate to the 'To-Do' application's main page.
+2. Locate a task in the "Todos" column that you want to mark as completed.
+3. Click on the "Done" button associated with the selected task.
+4. Verify that the task is no longer visible in the "Todos" column.
+5. Navigate to the "Completed" column within the application.
+6. Confirm that the task you marked as completed in step 3 is now displayed in the "Completed" column.
+
+Expected Results: 
+-> After clicking on the "Done" button in step 3, the task should disappear from the "Todos" column.
+-> In the "Completed" column (step 6), the task should be visible, indicating that it has been moved to the "Completed" section.
+-> There should be no error messages or issues encountered during this process.
+
+Status: Pass

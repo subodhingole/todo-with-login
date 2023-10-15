@@ -1,0 +1,1 @@
+alert.send_keys(Keys.ENTER) #Keys.RETURN is the same as pressing Enter
