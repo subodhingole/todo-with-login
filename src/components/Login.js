@@ -9,9 +9,11 @@ const Login = () => {
   const { isAuthenticated, toggleAuth } = useAuth();
   const navigate = useNavigate();
 
-  if (isAuthenticated || localStorage.getItem("isAuthenticated")) {
-    navigate("/todo");
-  }
+  useEffect(() => {
+    if (isAuthenticated) {
+      navigate("/todo");
+    }
+  }, [isAuthenticated, navigate]);
 
   // Define a styles object
   const styles = {
