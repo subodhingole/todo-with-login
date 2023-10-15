@@ -1,0 +1,15 @@
+Test Case ID: TC004
+Description: Verify that when a user clicks on the "Delete" button, the task is deleted from both the "To-Do" and "Completed" columns.
+Pre-conditions: User is logged in to the To-Do application, and there is at least one task in either the "To-Do" or "Completed" column.
+
+Test Steps:
+1. Navigate to the 'To-Do' application's main page.
+2. Locate a task in the "Todos" or "Completed" column that you want to delete.
+3. Click on the "Delete" button associated with the selected task.
+4. Verify that the task is no longer visible in either the "Todos" or "Completed" column.
+
+Expected Results: 
+-> After clicking on the "Delete" button in step 3, the task should disappear from both the "To-Do" and "Completed" columns.
+-> There should be no error messages or issues encountered during this process.
+
+Status: Pass

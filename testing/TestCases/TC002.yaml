@@ -1,0 +1,16 @@
+Test Case ID: TC002
+Description: Verify the ability to add an item to the To-Do list.
+Pre-conditions: User is logged in to the To-Do application.
+
+Test Steps:
+1. Navigate to the 'To-Do' application's main page.
+2. Locate and click on the 'Add Todo' button.
+3. In the input field provided, enter the task description, e.g., "Buy groceries."
+4. Verify that the task "Buy groceries" is displayed under the 'Todos' column.
+
+Expected Results: 
+-> After following the above steps, the "Todos" list should display the task "Buy groceries." along with the 'Done' and 'Delete' buttons.
+-> The task should be successfully added, and it should be visible in the list of tasks.
+-> There should be no error messages or issues encountered during this process.
+
+Status: Pass
