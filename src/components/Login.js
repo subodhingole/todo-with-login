@@ -9,7 +9,7 @@ const Login = () => {
   const { isAuthenticated, toggleAuth } = useAuth();
   const navigate = useNavigate();
 
-  if (isAuthenticated) {
+  if (isAuthenticated || localStorage.getItem("isAuthenticated")) {
     navigate("/todo");
   }
 
