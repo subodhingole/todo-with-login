@@ -10,9 +10,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <AuthProvider>
-    <BrowserRouter basename="/login">
+    <BrowserRouter basename="/">
       <Routes>
-        <Route path="/" Component={TodoList} />
+        <Route path="/" Component={Login} />
         <Route path="/login" Component={Login} />
         <Route path="/todo" Component={TodoList} />
       </Routes>
